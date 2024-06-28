@@ -67,8 +67,8 @@ const config: Config = {
           label: "Docs",
         },
         {
-          href: "https://github.com/facebook/docusaurus",
-          label: "GitHub",
+          href: "https://github.com/basliqacademy",
+          label: "Academy GitHub",
           position: "right",
         },
       ],
@@ -80,8 +80,8 @@ const config: Config = {
           title: "Docs",
           items: [
             {
-              label: "Tutorial",
-              to: "/docs/intro",
+              label: "Experiences",
+              to: "/docs/category/experiences",
             },
           ],
         },
@@ -89,16 +89,12 @@ const config: Config = {
           title: "Community",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              label: "Telegram Channel",
+              href: "https://t.me/basliqlabs",
             },
             {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/docusaurus",
+              label: "Telegram Group",
+              href: "https://t.me/basliqacademy",
             },
           ],
         },
@@ -106,17 +102,17 @@ const config: Config = {
           title: "More",
           items: [
             {
-              label: "Blog",
-              to: "/blog",
+              label: "Academy GitHub",
+              href: "https://github.com/basliqacademy",
             },
             {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              label: "Laboratory GitHub",
+              href: "https://github.com/basliqlabs",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc.`,
     },
     prism: {
       theme: prismThemes.github,
